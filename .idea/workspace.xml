@@ -1,15 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="7eaccc78-9923-4670-9ade-54ec1f9c5208" name="Default" comment="added spring web authentication framework">
-      <change beforePath="" afterPath="$PROJECT_DIR$/.gitignore" />
-      <change beforePath="$PROJECT_DIR$/.idea/dataSources/85832943-180c-43df-ab08-8580af0c5918.xml" afterPath="$PROJECT_DIR$/.idea/dataSources/85832943-180c-43df-ab08-8580af0c5918.xml" />
+    <list default="true" id="7eaccc78-9923-4670-9ade-54ec1f9c5208" name="Default" comment="">
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/sqlite-jdbc-3.27.2.1.jar" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/target/classes/com/kevinlofty/controller/HomeController.class" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/target/classes/com/kevinlofty/main/ProgrammingAssignmentApplication.class" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/target/classes/sqlite-jdbc-3.27.2.1.jar" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/target/classes/templates/home.html" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/target/classes/templates/login.html" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/target/surefire-reports/TEST-com.kevinlofty.ProgrammingAssignmentApplicationTests.xml" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/target/surefire-reports/com.kevinlofty.ProgrammingAssignmentApplicationTests.txt" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/target/test-classes/com/kevinlofty/controller/HomeControllerTest.class" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/application.properties" afterPath="$PROJECT_DIR$/src/main/resources/application.properties" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/kevinlofty/ProgammingAssignmentApplicationTests.java" afterPath="$PROJECT_DIR$/src/test/java/com/kevinlofty/ProgammingAssignmentApplicationTests.java" />
-      <change beforePath="$PROJECT_DIR$/target/classes/application.properties" afterPath="$PROJECT_DIR$/target/classes/application.properties" />
-      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/com/kevinlofty/ProgrammingAssignmentApplicationTests.class" afterPath="$PROJECT_DIR$/target/test-classes/com/kevinlofty/ProgrammingAssignmentApplicationTests.class" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -89,11 +91,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="WebSecurityConfig.java" pinned="false" current-in-tab="false">
+      <file leaf-file-name="WebSecurityConfig.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/kevinlofty/security/WebSecurityConfig.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="874">
-              <caret line="38" column="39" lean-forward="false" selection-start-line="38" selection-start-column="13" selection-end-line="38" selection-end-column="39" />
+            <state relative-caret-position="184">
+              <caret line="16" column="0" lean-forward="true" selection-start-line="16" selection-start-column="0" selection-end-line="16" selection-end-column="0" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -101,7 +103,7 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="user" pinned="false" current-in-tab="true">
+      <file leaf-file-name="user" pinned="false" current-in-tab="false">
         <entry file="das://table:/14659e6/85832943-180c-43df-ab08-8580af0c5918/main.user">
           <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
             <state>
@@ -124,7 +126,7 @@
         <entry file="file://$PROJECT_DIR$/src/main/java/com/kevinlofty/main/ProgrammingAssignmentApplication.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="184">
-              <caret line="11" column="22" lean-forward="true" selection-start-line="11" selection-start-column="22" selection-end-line="11" selection-end-column="22" />
+              <caret line="11" column="22" lean-forward="false" selection-start-line="11" selection-start-column="22" selection-end-line="11" selection-end-column="22" />
               <folding />
             </state>
           </provider>
@@ -823,7 +825,7 @@
       <updated>1576847541280</updated>
       <workItem from="1576847542848" duration="5677000" />
       <workItem from="1576869039263" duration="301000" />
-      <workItem from="1576869548538" duration="9157000" />
+      <workItem from="1576869548538" duration="15186000" />
     </task>
     <task id="LOCAL-00001" summary="added spring web authentication framework">
       <created>1576894559599</created>
@@ -832,14 +834,22 @@
       <option name="project" value="LOCAL" />
       <updated>1576894559599</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="working with sqlite">
+      <created>1576935840740</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1576935840740</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="15135000" />
+    <option name="totallyTimeSpent" value="21164000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="23" width="2560" height="1417" extended-state="0" />
+    <editor active="true" />
     <layout>
       <window_info id="PlantUML" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -861,7 +871,7 @@
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3292683" sideWeight="0.49791667" order="11" side_tool="false" content_ui="tabs" />
       <window_info id="Sequence" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="16" side_tool="false" content_ui="tabs" />
       <window_info id="Spring" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32924962" sideWeight="0.5" order="16" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32924962" sideWeight="0.5" order="13" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32924962" sideWeight="0.5" order="13" side_tool="false" content_ui="tabs" />
       <window_info id="Jenkins" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.15806195" sideWeight="0.73690206" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32738096" sideWeight="0.4671875" order="1" side_tool="false" content_ui="tabs" />
@@ -890,7 +900,8 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="added spring web authentication framework" />
-    <option name="LAST_COMMIT_MESSAGE" value="added spring web authentication framework" />
+    <MESSAGE value="working with sqlite" />
+    <option name="LAST_COMMIT_MESSAGE" value="working with sqlite" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
@@ -977,16 +988,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/kevinlofty/security/WebSecurityConfig.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="874">
-          <caret line="38" column="39" lean-forward="false" selection-start-line="38" selection-start-column="13" selection-end-line="38" selection-end-column="39" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/boot/spring-boot-autoconfigure/2.2.2.RELEASE/spring-boot-autoconfigure-2.2.2.RELEASE-sources.jar!/org/springframework/boot/autoconfigure/orm/jpa/JpaBaseConfiguration.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="310">
@@ -1035,7 +1036,7 @@
     <entry file="file://$PROJECT_DIR$/src/main/java/com/kevinlofty/main/ProgrammingAssignmentApplication.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="184">
-          <caret line="11" column="22" lean-forward="true" selection-start-line="11" selection-start-column="22" selection-end-line="11" selection-end-column="22" />
+          <caret line="11" column="22" lean-forward="false" selection-start-line="11" selection-start-column="22" selection-end-line="11" selection-end-column="22" />
           <folding />
         </state>
       </provider>
@@ -1052,6 +1053,16 @@
       <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
         <state>
           <filtering enabled="true" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/kevinlofty/security/WebSecurityConfig.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="184">
+          <caret line="16" column="0" lean-forward="true" selection-start-line="16" selection-start-column="0" selection-end-line="16" selection-end-column="0" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
